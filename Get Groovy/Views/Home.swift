@@ -9,13 +9,19 @@ import SwiftUI
 
 struct Home: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Home View")
-        }
-        .padding()
+        
+        HStack {
+            Spacer()
+            VStack {
+                Spacer()
+                Image(systemName: "globe")
+                    .imageScale(.large)
+                    .foregroundColor(.accentColor)
+                Text("Home View")
+            }
+            .padding()
+            
+        }.background(Color(red: 255/255, green: 219/255, blue: 187/255))
     }
 }
 

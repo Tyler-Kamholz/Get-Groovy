@@ -27,8 +27,8 @@ struct CustomTabView: View {
             //fiddle with this to look like glass
             Capsule()
                 .frame(height: 75)
-                .foregroundStyle(.secondary)
-                .opacity(0.2)
+                .foregroundStyle(Color(UIColor.white))
+                .opacity(0.65)
             
             HStack {
                 
@@ -71,7 +71,7 @@ struct CustomTabView: View {
                             
                             
                         }
-                        .foregroundStyle(index + 1 == tabSelection ? .blue : .gray)
+                        .foregroundStyle(index + 1 == tabSelection ? .blue : .black)
                         
                         
                     }
