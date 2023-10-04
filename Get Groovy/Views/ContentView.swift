@@ -8,8 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var tabSelection = 3
+    
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TabView(selection: $tabSelection) {
+            Home().tag(1)
+            Post().tag(2)
+            Account().tag(3)
+            
+        }.overlay(alignment: .bottom) {
+            CustomTabView(tabSelection: $tabSelection)
+        }
     }
 }
 

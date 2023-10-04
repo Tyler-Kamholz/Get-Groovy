@@ -7,16 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D3FDC162ACCA5D500C862E9 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3FDC152ACCA5D500C862E9 /* Account.swift */; };
+		3D3FDC182ACCA5E400C862E9 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3FDC172ACCA5E400C862E9 /* Post.swift */; };
+		3D3FDC1A2ACCA9B300C862E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3FDC192ACCA9B300C862E9 /* ContentView.swift */; };
+		3D3FDC1C2ACDC74300C862E9 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3FDC1B2ACDC74300C862E9 /* CustomTabView.swift */; };
 		3DF961612AA579FF00D5C7B1 /* Get_GroovyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF961602AA579FF00D5C7B1 /* Get_GroovyApp.swift */; };
-		3DF961632AA579FF00D5C7B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF961622AA579FF00D5C7B1 /* ContentView.swift */; };
+		3DF961632AA579FF00D5C7B1 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF961622AA579FF00D5C7B1 /* Home.swift */; };
 		3DF961652AA57A0000D5C7B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DF961642AA57A0000D5C7B1 /* Assets.xcassets */; };
 		3DF961682AA57A0000D5C7B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DF961672AA57A0000D5C7B1 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D3FDC152ACCA5D500C862E9 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		3D3FDC172ACCA5E400C862E9 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		3D3FDC192ACCA9B300C862E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3D3FDC1B2ACDC74300C862E9 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
 		3DF9615D2AA579FF00D5C7B1 /* Get Groovy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Get Groovy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DF961602AA579FF00D5C7B1 /* Get_GroovyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Get_GroovyApp.swift; sourceTree = "<group>"; };
-		3DF961622AA579FF00D5C7B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3DF961622AA579FF00D5C7B1 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		3DF961642AA57A0000D5C7B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DF961672AA57A0000D5C7B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				3DF961602AA579FF00D5C7B1 /* Get_GroovyApp.swift */,
-				3DF961622AA579FF00D5C7B1 /* ContentView.swift */,
+				3DF9616E2AA57A4E00D5C7B1 /* Views */,
 				3DF961642AA57A0000D5C7B1 /* Assets.xcassets */,
 				3DF961662AA57A0000D5C7B1 /* Preview Content */,
 			);
@@ -65,6 +73,18 @@
 				3DF961672AA57A0000D5C7B1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3DF9616E2AA57A4E00D5C7B1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3D3FDC152ACCA5D500C862E9 /* Account.swift */,
+				3D3FDC192ACCA9B300C862E9 /* ContentView.swift */,
+				3D3FDC1B2ACDC74300C862E9 /* CustomTabView.swift */,
+				3DF961622AA579FF00D5C7B1 /* Home.swift */,
+				3D3FDC172ACCA5E400C862E9 /* Post.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,7 +115,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					3DF9615C2AA579FF00D5C7B1 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -137,8 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DF961632AA579FF00D5C7B1 /* ContentView.swift in Sources */,
+				3DF961632AA579FF00D5C7B1 /* Home.swift in Sources */,
+				3D3FDC1A2ACCA9B300C862E9 /* ContentView.swift in Sources */,
+				3D3FDC162ACCA5D500C862E9 /* Account.swift in Sources */,
+				3D3FDC1C2ACDC74300C862E9 /* CustomTabView.swift in Sources */,
 				3DF961612AA579FF00D5C7B1 /* Get_GroovyApp.swift in Sources */,
+				3D3FDC182ACCA5E400C862E9 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +205,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -241,6 +266,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
