@@ -28,7 +28,7 @@ struct CustomTabView: View {
             Capsule()
                 .frame(height: 75)
                 .foregroundStyle(Color(UIColor.white))
-                .opacity(0.65)
+                .opacity(0.75)
             
             HStack {
                 

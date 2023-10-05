@@ -18,7 +18,8 @@ struct ContentView: View {
             Post().tag(2)
             Account().tag(3)
             
-        }.overlay(alignment: .bottom) {
+        }
+        .overlay(alignment: .bottom) {
             CustomTabView(tabSelection: $tabSelection)
         }
     }

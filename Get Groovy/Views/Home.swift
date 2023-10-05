@@ -10,18 +10,27 @@ import SwiftUI
 struct Home: View {
     var body: some View {
         
-        HStack {
-            Spacer()
-            VStack {
-                Spacer()
-                Image(systemName: "globe")
-                    .imageScale(.large)
-                    .foregroundColor(.accentColor)
-                Text("Home View")
-            }
-            .padding()
+        GeometryReader {
+            geometry in
             
-        }.background(Color(red: 255/255, green: 219/255, blue: 187/255))
+            HStack (alignment: .center){
+                
+                ScrollView {
+                    VStack {
+                        
+                        ForEach(1...20, id: \.self) { _ in
+                            PostCard()
+                        }
+                        
+                    }
+                    .frame(width: geometry.size.width)
+                    
+                }
+                
+            }
+            .background(Color(red: 255/255, green: 219/255, blue: 187/255))
+            
+        }
     }
 }
 

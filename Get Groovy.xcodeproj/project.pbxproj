@@ -11,6 +11,7 @@
 		3D3FDC182ACCA5E400C862E9 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3FDC172ACCA5E400C862E9 /* Post.swift */; };
 		3D3FDC1A2ACCA9B300C862E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3FDC192ACCA9B300C862E9 /* ContentView.swift */; };
 		3D3FDC1C2ACDC74300C862E9 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3FDC1B2ACDC74300C862E9 /* CustomTabView.swift */; };
+		3D84F7802ACF417F0001A7D2 /* PostCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D84F77F2ACF417F0001A7D2 /* PostCard.swift */; };
 		3DF961612AA579FF00D5C7B1 /* Get_GroovyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF961602AA579FF00D5C7B1 /* Get_GroovyApp.swift */; };
 		3DF961632AA579FF00D5C7B1 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF961622AA579FF00D5C7B1 /* Home.swift */; };
 		3DF961652AA57A0000D5C7B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DF961642AA57A0000D5C7B1 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 		3D3FDC172ACCA5E400C862E9 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		3D3FDC192ACCA9B300C862E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3D3FDC1B2ACDC74300C862E9 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
+		3D84F77F2ACF417F0001A7D2 /* PostCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCard.swift; sourceTree = "<group>"; };
 		3DF9615D2AA579FF00D5C7B1 /* Get Groovy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Get Groovy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DF961602AA579FF00D5C7B1 /* Get_GroovyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Get_GroovyApp.swift; sourceTree = "<group>"; };
 		3DF961622AA579FF00D5C7B1 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				3D3FDC1B2ACDC74300C862E9 /* CustomTabView.swift */,
 				3DF961622AA579FF00D5C7B1 /* Home.swift */,
 				3D3FDC172ACCA5E400C862E9 /* Post.swift */,
+				3D84F77F2ACF417F0001A7D2 /* PostCard.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 				3D3FDC1C2ACDC74300C862E9 /* CustomTabView.swift in Sources */,
 				3DF961612AA579FF00D5C7B1 /* Get_GroovyApp.swift in Sources */,
 				3D3FDC182ACCA5E400C862E9 /* Post.swift in Sources */,
+				3D84F7802ACF417F0001A7D2 /* PostCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
